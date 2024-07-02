@@ -18,7 +18,23 @@ This repository contains the code to calculate genomic coverage from an NGS BAM 
 ## Calculating coverage
 - To download the code required for the `./src/python/calc_target_coverage.py` script, run `pip install -r requirements.txt`
 - Once the dependencies are set up, the script can be run using `./src/python/calc_target_coverage.py -a ./NA12878.mapped.ILLUMINA.bwa.CEU.low_coverage.20121211.sub.bam -b ./chromosomes.bed --threads 6`
-    - The results will be printed to STDOUT and will look like the below:
+    - The help message for the script is shown below:
+```
+usage: calc_target_coverage.py [-h] [-a ALIGNMENT] [-b BED] [-t THREADS]
+
+Script to calculate coverage across regions from a target BED file
+
+options:
+  -h, --help            show this help message and exit
+  -a ALIGNMENT, --alignment-file ALIGNMENT
+                        Path to alignment file (SAM / BAM)
+  -b BED, --bed-file BED
+                        Path to bed file
+  -t THREADS, --threads THREADS
+                        Number of threads to use for parallel processing
+```
+
+- The results will be printed to STDOUT and will look like the below:
         Chromosome 1: 999,897
         Chromosome 2: 0
         Chromosome 3: 0
@@ -43,29 +59,30 @@ This repository contains the code to calculate genomic coverage from an NGS BAM 
         Chromosome 22: 0
         Chromosome X: 0
         Chromosome Y: 0
-    - NOTE: The 'sub' BAM file takes the first 1M reads and they appear to be sorted hence all of the reads coming just from the first chromosome
-        - Using the full BAM (too large to add to the repo) yields the below results
-            Chromosome 1: 12,892,698
-            Chromosome 2: 13,747,916
-            Chromosome 3: 11,334,125
-            Chromosome 4: 11,004,704
-            Chromosome 5: 10,405,139
-            Chromosome 6: 9,780,726
-            Chromosome 7: 8,870,298
-            Chromosome 8: 8,333,172
-            Chromosome 9: 6,767,853
-            Chromosome 10: 7,287,394
-            Chromosome 11: 7,429,084
-            Chromosome 12: 7,430,177
-            Chromosome 13: 5,564,465
-            Chromosome 14: 5,059,702
-            Chromosome 15: 4,559,245
-            Chromosome 16: 4,849,844
-            Chromosome 17: 4,170,905
-            Chromosome 18: 4,316,255
-            Chromosome 19: 2,802,277
-            Chromosome 20: 3,245,545
-            Chromosome 21: 2,020,211
-            Chromosome 22: 1,761,554
-            Chromosome X: 8,837,533
-            Chromosome Y: 42,759
+
+- NOTE: The 'sub' BAM file takes the first 1M reads and they appear to be sorted hence all of the reads coming just from the first chromosome
+    - Using the full BAM (too large to add to the repo) yields the below results
+        Chromosome 1: 12,892,698
+        Chromosome 2: 13,747,916
+        Chromosome 3: 11,334,125
+        Chromosome 4: 11,004,704
+        Chromosome 5: 10,405,139
+        Chromosome 6: 9,780,726
+        Chromosome 7: 8,870,298
+        Chromosome 8: 8,333,172
+        Chromosome 9: 6,767,853
+        Chromosome 10: 7,287,394
+        Chromosome 11: 7,429,084
+        Chromosome 12: 7,430,177
+        Chromosome 13: 5,564,465
+        Chromosome 14: 5,059,702
+        Chromosome 15: 4,559,245
+        Chromosome 16: 4,849,844
+        Chromosome 17: 4,170,905
+        Chromosome 18: 4,316,255
+        Chromosome 19: 2,802,277
+        Chromosome 20: 3,245,545
+        Chromosome 21: 2,020,211
+        Chromosome 22: 1,761,554
+        Chromosome X: 8,837,533
+        Chromosome Y: 42,759
