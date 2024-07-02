@@ -1,0 +1,25 @@
+chrom	start	end	name	score	strand	description
+1	0	248956422	chromosome_1	.	+	ID=id0;Dbxref=taxon:9606;Name=1;chromosome=1;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+2	0	242193529	chromosome_2	.	+	ID=id103632;Dbxref=taxon:9606;Name=2;chromosome=2;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+3	0	198295559	chromosome_3	.	+	ID=id187476;Dbxref=taxon:9606;Name=3;chromosome=3;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+4	0	190214555	chromosome_4	.	+	ID=id249709;Dbxref=taxon:9606;Name=4;chromosome=4;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+5	0	181538259	chromosome_5	.	+	ID=id290087;Dbxref=taxon:9606;Name=5;chromosome=5;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+6	0	170805979	chromosome_6	.	+	ID=id327699;Dbxref=taxon:9606;Name=6;chromosome=6;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+7	0	159345973	chromosome_7	.	+	ID=id376463;Dbxref=taxon:9606;Name=7;chromosome=7;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+8	0	145138636	chromosome_8	.	+	ID=id417555;Dbxref=taxon:9606;Name=8;chromosome=8;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+9	0	138394717	chromosome_9	.	+	ID=id449907;Dbxref=taxon:9606;Name=9;chromosome=9;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+10	0	133797422	chromosome_10	.	+	ID=id491984;Dbxref=taxon:9606;Name=10;chromosome=10;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+11	0	135086622	chromosome_11	.	+	ID=id537992;Dbxref=taxon:9606;Name=11;chromosome=11;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+12	0	133275309	chromosome_12	.	+	ID=id589218;Dbxref=taxon:9606;Name=12;chromosome=12;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+13	0	114364328	chromosome_13	.	+	ID=id641524;Dbxref=taxon:9606;Name=13;chromosome=13;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+14	0	107043718	chromosome_14	.	+	ID=id661948;Dbxref=taxon:9606;Name=14;chromosome=14;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+15	0	101991189	chromosome_15	.	+	ID=id690054;Dbxref=taxon:9606;Name=15;chromosome=15;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+16	0	90338345	chromosome_16	.	+	ID=id723093;Dbxref=taxon:9606;Name=16;chromosome=16;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+17	0	83257441	chromosome_17	.	+	ID=id760691;Dbxref=taxon:9606;Name=17;chromosome=17;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+18	0	80373285	chromosome_18	.	+	ID=id815791;Dbxref=taxon:9606;Name=18;chromosome=18;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+19	0	58617616	chromosome_19	.	+	ID=id831868;Dbxref=taxon:9606;Name=19;chromosome=19;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+20	0	64444167	chromosome_20	.	+	ID=id878154;Dbxref=taxon:9606;Name=20;chromosome=20;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+21	0	46709983	chromosome_21	.	+	ID=id900598;Dbxref=taxon:9606;Name=21;chromosome=21;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+22	0	50818468	chromosome_22	.	+	ID=id911014;Dbxref=taxon:9606;Name=22;chromosome=22;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+X	0	156040895	chromosome_X	.	+	ID=id931868;Dbxref=taxon:9606;Name=X;chromosome=X;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+Y	0	57227415	chromosome_Y	.	+	ID=id964740;Dbxref=taxon:9606;Name=Y;chromosome=Y;gbkey=Src;genome=chromosome;mol_type=genomic DNA

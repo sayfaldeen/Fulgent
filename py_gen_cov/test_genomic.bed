@@ -1,0 +1,10 @@
+NC_000001.11	0	248956422	.	.	+	RefSeq	region	.	ID=id0;Dbxref=taxon:9606;Name=1;chromosome=1;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+NC_000001.11	10953	11523	.	.	+	Gnomon	exon	.	ID=id1;Parent=gene0;Dbxref=GeneID:102723747;exon_number=1;gbkey=exon;gene=LOC102723747
+NC_000001.11	10953	11523	.	.	+	Gnomon	gene	.	ID=gene0;Dbxref=GeneID:102723747;Name=LOC102723747;gbkey=Gene;gene=LOC102723747;pseudo=true
+NC_000001.11	11873	12227	.	.	+	BestRefSeq	exon	.	ID=id2;Parent=rna0;Dbxref=GeneID:100287102,Genbank:NR_046018.2,HGNC:37102;gbkey=misc_RNA;gene=DDX11L1;product=DEAD/H (Asp-Glu-Ala-Asp/His) box helicase 11 like 1;transcript_id=NR_046018.2
+NC_000001.11	11873	14409	.	.	+	BestRefSeq	gene	.	ID=gene1;Dbxref=GeneID:100287102,HGNC:37102;Name=DDX11L1;description=DEAD/H (Asp-Glu-Ala-Asp/His) box helicase 11 like 1;gbkey=Gene;gene=DDX11L1;pseudo=true
+NC_000001.11	11873	14409	.	.	+	BestRefSeq	transcript	.	ID=rna0;Parent=gene1;Dbxref=GeneID:100287102,Genbank:NR_046018.2,HGNC:37102;Name=NR_046018.2;gbkey=misc_RNA;gene=DDX11L1;product=DEAD/H (Asp-Glu-Ala-Asp/His) box helicase 11 like 1;transcript_id=NR_046018.2
+NC_000001.11	12612	12721	.	.	+	BestRefSeq	exon	.	ID=id3;Parent=rna0;Dbxref=GeneID:100287102,Genbank:NR_046018.2,HGNC:37102;gbkey=misc_RNA;gene=DDX11L1;product=DEAD/H (Asp-Glu-Ala-Asp/His) box helicase 11 like 1;transcript_id=NR_046018.2
+NC_000001.11	13220	14409	.	.	+	BestRefSeq	exon	.	ID=id4;Parent=rna0;Dbxref=GeneID:100287102,Genbank:NR_046018.2,HGNC:37102;gbkey=misc_RNA;gene=DDX11L1;product=DEAD/H (Asp-Glu-Ala-Asp/His) box helicase 11 like 1;transcript_id=NR_046018.2
+NC_000001.11	14361	14829	.	.	-	BestRefSeq	exon	.	ID=id15;Parent=rna1;Dbxref=GeneID:653635,Genbank:NR_024540.1,HGNC:38034;gbkey=misc_RNA;gene=WASH7P;product=WAS protein family homolog 7 pseudogene;transcript_id=NR_024540.1
+NC_000001.11	14361	29370	.	.	-	BestRefSeq	gene	.	ID=gene2;Dbxref=GeneID:653635,HGNC:38034;Name=WASH7P;description=WAS protein family homolog 7 pseudogene;gbkey=Gene;gene=WASH7P;gene_synonym=FAM39F,WASH5P;pseudo=true
