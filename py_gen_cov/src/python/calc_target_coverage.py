@@ -120,13 +120,48 @@ class CoverageObject:
 
         return coverages
 
-#################### Main script ####################
-cov = CoverageObject(
-    alignment_file = args.alignment,
-    bed_file = args.bed,
-    threads = args.threads
-)
 
-# Neatly print out coverages
-for k in cov.coverages:
-    print(f"Chromosome {k[0]}: {cov.coverages[k]:,}")
+#################### Main script ####################
+if __name__ == "__main__":
+    ### Set up argument parser ###
+    parser = ap.ArgumentParser(description="""
+    Script to calculate coverage across regions from a target BED file
+    """, formatter_class=ap.RawTextHelpFormatter)
+
+    parser.add_argument(
+        "-a",
+        "--alignment-file",
+        dest = "alignment",
+        type = str,
+        help = "Path to alignment file (SAM / BAM)"
+    )
+
+    parser.add_argument(
+        "-b",
+        "--bed-file",
+        dest = "bed",
+        type = str,
+        help = "Path to bed file"
+    )
+
+    parser.add_argument(
+        "-t",
+        "--threads",
+        dest = "threads",
+        type = int,
+        default = 2,
+        help = "Number of threads to use for parallel processing"
+    )
+
+    args = parser.parse_args()
+
+    ### Run code if this is called as a script and not a module ###
+    cov = CoverageObject(
+        alignment_file = args.alignment,
+        bed_file = args.bed,
+        threads = args.threads
+    )
+
+    # Neatly print out coverages
+    for k in cov.coverages:
+        print(f"Chromosome {k[0]}: {cov.coverages[k]:,}")
