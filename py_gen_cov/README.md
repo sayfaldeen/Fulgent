@@ -90,3 +90,6 @@ Chromosome 22: 1,761,554
 Chromosome X: 8,837,533
 Chromosome Y: 42,759
 ```
+# Testing
+- Some basic tests were added to `./testing/python/` to test the different aspects of code for calculating the coverages
+- Test code can be ran by FIRST going navigating into the `testing/python/` directory and then simply typing `pytest`
