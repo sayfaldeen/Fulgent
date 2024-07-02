@@ -96,6 +96,7 @@ Chromosome Y: 42,759
 
 ## Test results
 - Test results are added below in case user does not wish to run the test
+```
 ========= test session starts =======
 platform linux -- Python 3.10.14, pytest-8.2.2, pluggy-1.5.0
 rootdir: /home/sayf/GitHub/Fulgent/py_gen_cov/testing/python
@@ -104,3 +105,4 @@ collected 3 items
 test_calc_target_coverage.py ...   [100%]
 
 ========= 3 passed in 3.01s ==========
+```
