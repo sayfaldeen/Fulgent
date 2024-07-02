@@ -35,54 +35,58 @@ options:
 ```
 
 - The results will be printed to STDOUT and will look like the below:
-        Chromosome 1: 999,897
-        Chromosome 2: 0
-        Chromosome 3: 0
-        Chromosome 4: 0
-        Chromosome 5: 0
-        Chromosome 6: 0
-        Chromosome 7: 0
-        Chromosome 8: 0
-        Chromosome 9: 0
-        Chromosome 10: 0
-        Chromosome 11: 0
-        Chromosome 12: 0
-        Chromosome 13: 0
-        Chromosome 14: 0
-        Chromosome 15: 0
-        Chromosome 16: 0
-        Chromosome 17: 0
-        Chromosome 18: 0
-        Chromosome 19: 0
-        Chromosome 20: 0
-        Chromosome 21: 0
-        Chromosome 22: 0
-        Chromosome X: 0
-        Chromosome Y: 0
+```
+Chromosome 1: 999,897
+Chromosome 2: 0
+Chromosome 3: 0
+Chromosome 4: 0
+Chromosome 5: 0
+Chromosome 6: 0
+Chromosome 7: 0
+Chromosome 8: 0
+Chromosome 9: 0
+Chromosome 10: 0
+Chromosome 11: 0
+Chromosome 12: 0
+Chromosome 13: 0
+Chromosome 14: 0
+Chromosome 15: 0
+Chromosome 16: 0
+Chromosome 17: 0
+Chromosome 18: 0
+Chromosome 19: 0
+Chromosome 20: 0
+Chromosome 21: 0
+Chromosome 22: 0
+Chromosome X: 0
+Chromosome Y: 0
+```
 
 - NOTE: The 'sub' BAM file takes the first 1M reads and they appear to be sorted hence all of the reads coming just from the first chromosome
-    - Using the full BAM (too large to add to the repo) yields the below results
-        Chromosome 1: 12,892,698
-        Chromosome 2: 13,747,916
-        Chromosome 3: 11,334,125
-        Chromosome 4: 11,004,704
-        Chromosome 5: 10,405,139
-        Chromosome 6: 9,780,726
-        Chromosome 7: 8,870,298
-        Chromosome 8: 8,333,172
-        Chromosome 9: 6,767,853
-        Chromosome 10: 7,287,394
-        Chromosome 11: 7,429,084
-        Chromosome 12: 7,430,177
-        Chromosome 13: 5,564,465
-        Chromosome 14: 5,059,702
-        Chromosome 15: 4,559,245
-        Chromosome 16: 4,849,844
-        Chromosome 17: 4,170,905
-        Chromosome 18: 4,316,255
-        Chromosome 19: 2,802,277
-        Chromosome 20: 3,245,545
-        Chromosome 21: 2,020,211
-        Chromosome 22: 1,761,554
-        Chromosome X: 8,837,533
-        Chromosome Y: 42,759
+    - Using the full BAM (too large to add to the repo) yields the below results:
+```
+Chromosome 1: 12,892,698
+Chromosome 2: 13,747,916
+Chromosome 3: 11,334,125
+Chromosome 4: 11,004,704
+Chromosome 5: 10,405,139
+Chromosome 6: 9,780,726
+Chromosome 7: 8,870,298
+Chromosome 8: 8,333,172
+Chromosome 9: 6,767,853
+Chromosome 10: 7,287,394
+Chromosome 11: 7,429,084
+Chromosome 12: 7,430,177
+Chromosome 13: 5,564,465
+Chromosome 14: 5,059,702
+Chromosome 15: 4,559,245
+Chromosome 16: 4,849,844
+Chromosome 17: 4,170,905
+Chromosome 18: 4,316,255
+Chromosome 19: 2,802,277
+Chromosome 20: 3,245,545
+Chromosome 21: 2,020,211
+Chromosome 22: 1,761,554
+Chromosome X: 8,837,533
+Chromosome Y: 42,759
+```
